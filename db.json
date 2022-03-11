@@ -1,0 +1,1477 @@
+{
+  "colors": [
+    {
+      "title": "1",
+      "color": "зеленый",
+      "options": [
+        "option6"
+      ],
+      "id": 2
+    },
+    {
+      "title": "hello",
+      "color": "голубой",
+      "options": [
+        "option5"
+      ],
+      "id": 3
+    },
+    {
+      "color": "синий",
+      "title": "max",
+      "options": [
+        "option6",
+        "option7",
+        "option5"
+      ],
+      "id": 4
+    }
+  ],
+  "choose_one": [
+    {
+      "id": 1,
+      "color": "красный"
+    },
+    {
+      "id": 2,
+      "color": "оранжевый"
+    },
+    {
+      "id": 3,
+      "color": "желтый"
+    },
+    {
+      "id": 4,
+      "color": "зеленый"
+    },
+    {
+      "id": 5,
+      "color": "голубой"
+    },
+    {
+      "id": 6,
+      "color": "синий"
+    },
+    {
+      "id": 7,
+      "color": "фиолетовый"
+    }
+  ],
+  "choose_several": [
+    {
+      "id": "option1",
+      "name": "option1"
+    },
+    {
+      "id": "option2",
+      "name": "option2"
+    },
+    {
+      "id": "option3",
+      "name": "option3"
+    },
+    {
+      "id": "option4",
+      "name": "option4"
+    },
+    {
+      "id": "option5",
+      "name": "option5"
+    },
+    {
+      "id": "option6",
+      "name": "option6"
+    },
+    {
+      "id": "option7",
+      "name": "option7"
+    },
+    {
+      "id": "option8",
+      "name": "option8"
+    },
+    {
+      "id": "option9",
+      "name": "option9"
+    },
+    {
+      "id": "option10",
+      "name": "option10"
+    },
+    {
+      "id": "option11",
+      "name": "option11"
+    },
+    {
+      "id": "option12",
+      "name": "option12"
+    },
+    {
+      "id": "option13",
+      "name": "option13"
+    },
+    {
+      "id": "option14",
+      "name": "option14"
+    },
+    {
+      "id": "option15",
+      "name": "option15"
+    }
+  ],
+  "task2": [
+    {
+      "table": {
+        "header": [
+          {
+            "Header": "id",
+            "accessor": "id"
+          },
+          {
+            "Header": "Наименование плана",
+            "accessor": "name"
+          },
+          {
+            "Header": "Актив",
+            "accessor": "active"
+          },
+          {
+            "Header": "Тип плана",
+            "accessor": "type"
+          },
+          {
+            "Header": "Состояние",
+            "accessor": "state"
+          },
+          {
+            "Header": "Дата начала",
+            "accessor": "planstart"
+          },
+          {
+            "Header": "Горизонт",
+            "accessor": "horizon"
+          },
+          {
+            "Header": "Автор",
+            "accessor": "author"
+          },
+          {
+            "Header": "Дата изменения",
+            "accessor": "changedate"
+          },
+          {
+            "Header": "Оптимизация",
+            "accessor": "optalg"
+          },
+          {
+            "Header": "Добыча",
+            "accessor": "extraction"
+          },
+          {
+            "Header": "Недостаток",
+            "accessor": "deficit"
+          },
+          {
+            "Header": "Строк, шт",
+            "accessor": "rowscount"
+          },
+          {
+            "Header": "Комментарий",
+            "accessor": "comment"
+          }
+        ],
+        "data": [
+          {
+            "id": "1й",
+            "name": "Восточный_01",
+            "active": "Восточный",
+            "planstart": "01.02.2021",
+            "horizon": "90",
+            "subRows": [
+              {
+                "id": 1,
+                "name": "План 12345",
+                "active": "Восточный",
+                "type": "факт",
+                "state": "факт",
+                "planstart": "01.02.2021",
+                "horizon": "10",
+                "author": "Фёдоров",
+                "changedate": "10.02.2021",
+                "optalg": "",
+                "extraction": 10000,
+                "deficit": 500,
+                "rowscount": 500,
+                "comment": ""
+              },
+              {
+                "id": 2,
+                "name": "План 12346",
+                "active": "Восточный",
+                "type": "факт",
+                "state": "факт",
+                "planstart": "01.02.2021",
+                "horizon": "90",
+                "author": "Фёдоров",
+                "changedate": "10.02.2021",
+                "optalg": "",
+                "extraction": 25000,
+                "deficit": 3120,
+                "rowscount": 2550,
+                "comment": ""
+              },
+              {
+                "id": 3,
+                "name": "План 12347",
+                "active": "Восточный",
+                "type": "план",
+                "state": "утвержден",
+                "planstart": "01.02.2021",
+                "horizon": "90",
+                "author": "Иванов",
+                "changedate": "26.02.2021",
+                "optalg": "",
+                "extraction": 26500,
+                "deficit": 3000,
+                "rowscount": 2500,
+                "comment": ""
+              },
+              {
+                "id": 4,
+                "name": "План 12348",
+                "active": "Восточный",
+                "type": "план",
+                "state": "подготовка",
+                "planstart": "01.02.2021",
+                "horizon": "90",
+                "author": "Иванов",
+                "changedate": "23.05.2021",
+                "optalg": "",
+                "extraction": 26500,
+                "deficit": 3000,
+                "rowscount": 2500,
+                "comment": ""
+              },
+              {
+                "id": 5,
+                "name": "План 12349",
+                "active": "Восточный",
+                "type": "план",
+                "state": "подготовка",
+                "planstart": "01.02.2021",
+                "horizon": "90",
+                "author": "Иванов",
+                "changedate": "23.04.2021",
+                "optalg": "",
+                "extraction": "---",
+                "deficit": "---",
+                "rowscount": 2500,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": "2й",
+            "name": "Северный_02",
+            "active": "Северный",
+            "planstart": "01.02.2021",
+            "horizon": "90",
+            "subRows": [
+              {
+                "id": 7,
+                "name": "План 12381",
+                "active": "Северный",
+                "type": "факт",
+                "state": "факт",
+                "planstart": "01.02.2021",
+                "horizon": "10",
+                "author": "Фёдоров",
+                "changedate": "10.02.2021",
+                "optalg": "",
+                "extraction": 10000,
+                "deficit": 500,
+                "rowscount": 500,
+                "comment": ""
+              },
+              {
+                "id": 8,
+                "name": "План 12382",
+                "active": "Северный",
+                "type": "факт",
+                "state": "факт",
+                "planstart": "01.02.2021",
+                "horizon": "90",
+                "author": "Фёдоров",
+                "changedate": "10.02.2021",
+                "optalg": "",
+                "extraction": 25000,
+                "deficit": 3120,
+                "rowscount": 2550,
+                "comment": ""
+              },
+              {
+                "id": 9,
+                "name": "План 12383",
+                "active": "Северный",
+                "type": "план",
+                "state": "утвержден",
+                "planstart": "01.02.2021",
+                "horizon": "90",
+                "author": "Иванов",
+                "changedate": "26.02.2021",
+                "optalg": "",
+                "extraction": 26500,
+                "deficit": 3000,
+                "rowscount": 2500,
+                "comment": ""
+              },
+              {
+                "id": 10,
+                "name": "План 12384",
+                "active": "Северный",
+                "type": "план",
+                "state": "подготовка",
+                "planstart": "01.02.2021",
+                "horizon": "90",
+                "author": "Иванов",
+                "changedate": "23.05.2021",
+                "optalg": "",
+                "extraction": 26500,
+                "deficit": 3000,
+                "rowscount": 2500,
+                "comment": ""
+              },
+              {
+                "id": 11,
+                "name": "План 12385",
+                "active": "Северный",
+                "type": "план",
+                "state": "подготовка",
+                "planstart": "01.02.2021",
+                "horizon": "90",
+                "author": "Иванов",
+                "changedate": "23.04.2021",
+                "optalg": "",
+                "extraction": "---",
+                "deficit": "---",
+                "rowscount": 2500,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": "3й",
+            "name": "Северный_03",
+            "active": "Северный",
+            "planstart": "01.03.2021",
+            "horizon": "90",
+            "subRows": [
+              {
+                "id": 6,
+                "name": "План 12330",
+                "active": "Северный",
+                "type": "план",
+                "state": "подготовка",
+                "planstart": "01.03.2021",
+                "horizon": "90",
+                "author": "Иванов",
+                "changedate": "23.04.2021",
+                "optalg": "",
+                "extraction": "---",
+                "deficit": "---",
+                "rowscount": 2500,
+                "comment": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "task3": [
+    {
+      "chart1": {
+        "project1": [
+          {
+            "month": 1,
+            "earnings": 13000
+          },
+          {
+            "month": 2,
+            "earnings": 16000
+          },
+          {
+            "month": 3,
+            "earnings": 14000
+          },
+          {
+            "month": 4,
+            "earnings": 19000
+          },
+          {
+            "month": 5,
+            "earnings": 14000
+          },
+          {
+            "month": 6,
+            "earnings": 16000
+          },
+          {
+            "month": 7,
+            "earnings": 15000
+          },
+          {
+            "month": 8,
+            "earnings": 17000
+          },
+          {
+            "month": 9,
+            "earnings": 20000
+          },
+          {
+            "month": 10,
+            "earnings": 18000
+          },
+          {
+            "month": 11,
+            "earnings": 14000
+          },
+          {
+            "month": 12,
+            "earnings": 11000
+          }
+        ],
+        "project2": [
+          {
+            "month": 1,
+            "earnings": 18000
+          },
+          {
+            "month": 2,
+            "earnings": 15000
+          },
+          {
+            "month": 3,
+            "earnings": 14000
+          },
+          {
+            "month": 4,
+            "earnings": 13000
+          },
+          {
+            "month": 5,
+            "earnings": 12000
+          },
+          {
+            "month": 6,
+            "earnings": 16000
+          },
+          {
+            "month": 7,
+            "earnings": 12000
+          },
+          {
+            "month": 8,
+            "earnings": 17000
+          },
+          {
+            "month": 9,
+            "earnings": 19000
+          },
+          {
+            "month": 10,
+            "earnings": 16000
+          },
+          {
+            "month": 11,
+            "earnings": 13000
+          },
+          {
+            "month": 12,
+            "earnings": 12000
+          }
+        ],
+        "project3": [
+          {
+            "month": 1,
+            "earnings": 14000
+          },
+          {
+            "month": 2,
+            "earnings": 15000
+          },
+          {
+            "month": 3,
+            "earnings": 16000
+          },
+          {
+            "month": 4,
+            "earnings": 14000
+          },
+          {
+            "month": 5,
+            "earnings": 16000
+          },
+          {
+            "month": 6,
+            "earnings": 17000
+          },
+          {
+            "month": 7,
+            "earnings": 13000
+          },
+          {
+            "month": 8,
+            "earnings": 19000
+          },
+          {
+            "month": 9,
+            "earnings": 12000
+          },
+          {
+            "month": 10,
+            "earnings": 13000
+          },
+          {
+            "month": 11,
+            "earnings": 18000
+          },
+          {
+            "month": 12,
+            "earnings": 13000
+          }
+        ],
+        "project4": [
+          {
+            "month": 1,
+            "earnings": 19000
+          },
+          {
+            "month": 2,
+            "earnings": 13000
+          },
+          {
+            "month": 3,
+            "earnings": 12000
+          },
+          {
+            "month": 4,
+            "earnings": 9000
+          },
+          {
+            "month": 5,
+            "earnings": 14000
+          },
+          {
+            "month": 6,
+            "earnings": 13000
+          },
+          {
+            "month": 7,
+            "earnings": 18000
+          },
+          {
+            "month": 8,
+            "earnings": 15000
+          },
+          {
+            "month": 9,
+            "earnings": 17000
+          },
+          {
+            "month": 10,
+            "earnings": 14000
+          },
+          {
+            "month": 11,
+            "earnings": 15000
+          },
+          {
+            "month": 12,
+            "earnings": 12000
+          }
+        ]
+      },
+      "chart2": {
+        "data2012": [
+          {
+            "x": 1,
+            "label": "Исследования",
+            "y": 42
+          },
+          {
+            "x": 2,
+            "label": "Плановое отключение э/э",
+            "y": 24
+          },
+          {
+            "x": 3,
+            "label": "Прочие работы",
+            "y": 34
+          }
+        ],
+        "data2013": [
+          {
+            "x": 1,
+            "label": "Исследования",
+            "y": 35
+          },
+          {
+            "x": 2,
+            "label": "Плановое отключение э/э",
+            "y": 10
+          },
+          {
+            "x": 3,
+            "label": "Прочие работы",
+            "y": 55
+          }
+        ]
+      },
+      "chart3": {
+        "marks": [
+          {
+            "value": 0,
+            "label": ""
+          },
+          {
+            "value": 1,
+            "label": "янв"
+          },
+          {
+            "value": 2,
+            "label": "фев"
+          },
+          {
+            "value": 3,
+            "label": "мар"
+          },
+          {
+            "value": 4,
+            "label": "апр"
+          },
+          {
+            "value": 5,
+            "label": "май"
+          },
+          {
+            "value": 6,
+            "label": "июн"
+          },
+          {
+            "value": 7,
+            "label": "июл"
+          },
+          {
+            "value": 8,
+            "label": "авг"
+          },
+          {
+            "value": 9,
+            "label": "сен"
+          },
+          {
+            "value": 10,
+            "label": "окт"
+          },
+          {
+            "value": 11,
+            "label": "ноя"
+          },
+          {
+            "value": 12,
+            "label": "дек"
+          }
+        ],
+        "data": {
+          "metric1": {
+            "0": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 1,
+                "fact": 1,
+                "label": "0"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 1,
+                "fact": 1,
+                "label": "0"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 1,
+                "fact": 1,
+                "label": "0"
+              }
+            ],
+            "1": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 14,
+                "fact": 14,
+                "label": "14"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 19,
+                "fact": 19,
+                "label": "19"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 5,
+                "fact": 5,
+                "label": "5"
+              }
+            ],
+            "2": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 15,
+                "fact": 15,
+                "label": "15"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 20,
+                "fact": 19,
+                "label": "19"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 7,
+                "fact": 7,
+                "label": "7"
+              }
+            ],
+            "3": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 23,
+                "fact": 23,
+                "label": "23"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 20,
+                "fact": 19,
+                "label": "19"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 9,
+                "fact": 9,
+                "label": "9"
+              }
+            ],
+            "4": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 37,
+                "fact": 37,
+                "label": "37"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 25,
+                "fact": 24,
+                "label": "24"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 24,
+                "fact": 24,
+                "label": "24"
+              }
+            ],
+            "5": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 40,
+                "fact": 40,
+                "label": "40"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 60,
+                "fact": 60,
+                "label": "60"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 58,
+                "fact": 58,
+                "label": "58"
+              }
+            ],
+            "6": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 42,
+                "fact": 42,
+                "label": "42"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 63,
+                "fact": 63,
+                "label": "63"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 63,
+                "fact": 63,
+                "label": "70"
+              }
+            ],
+            "7": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 48,
+                "fact": 48,
+                "label": "48"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 63,
+                "fact": 63,
+                "label": "63"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 85,
+                "fact": 85,
+                "label": "85"
+              }
+            ],
+            "8": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 58,
+                "fact": 58,
+                "label": "58"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 63,
+                "fact": 63,
+                "label": "63"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 90,
+                "fact": 90,
+                "label": "90"
+              }
+            ],
+            "9": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 72,
+                "fact": 72,
+                "label": "72"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 63,
+                "fact": 63,
+                "label": "63"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 100,
+                "fact": 100,
+                "label": "100"
+              }
+            ],
+            "10": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 80,
+                "fact": 80,
+                "label": "80"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 92,
+                "fact": 92,
+                "label": "92"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 100,
+                "fact": 100,
+                "label": "100"
+              }
+            ],
+            "11": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 85,
+                "fact": 85,
+                "label": "85"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 100,
+                "fact": 100,
+                "label": "100"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 100,
+                "fact": 100,
+                "label": "100"
+              }
+            ],
+            "12": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 1,
+                "task": "1_УВР",
+                "plan": 100,
+                "fact": 100,
+                "label": "100"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 1,
+                "task": "1_УДНГ",
+                "plan": 100,
+                "fact": 100,
+                "label": "100"
+              },
+              {
+                "group": 3,
+                "responsible": "УЭТ",
+                "metric": 1,
+                "task": "1_УЭТ",
+                "plan": 100,
+                "fact": 100,
+                "label": "100"
+              }
+            ]
+          },
+          "metric2": {
+            "0": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 1,
+                "fact": 1,
+                "label": "0"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 1,
+                "fact": 1,
+                "label": "0"
+              }
+            ],
+            "1": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 5,
+                "fact": 3,
+                "label": "3"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 1,
+                "fact": 1,
+                "label": "0"
+              }
+            ],
+            "2": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 5,
+                "fact": 3,
+                "label": "3"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 1,
+                "fact": 1,
+                "label": "0"
+              }
+            ],
+            "3": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 10,
+                "fact": 7,
+                "label": "7"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 4,
+                "fact": 4,
+                "label": "4"
+              }
+            ],
+            "4": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 15,
+                "fact": 13,
+                "label": "13"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 20,
+                "fact": 20,
+                "label": "20"
+              }
+            ],
+            "5": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 20,
+                "fact": 14,
+                "label": "14"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 50,
+                "fact": 50,
+                "label": "50"
+              }
+            ],
+            "6": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 17,
+                "fact": 17,
+                "label": "17"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 51,
+                "fact": 51,
+                "label": "51"
+              }
+            ],
+            "7": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 20,
+                "fact": 20,
+                "label": "20"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 58,
+                "fact": 58,
+                "label": "58"
+              }
+            ],
+            "8": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 29,
+                "fact": 29,
+                "label": "29"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 63,
+                "fact": 63,
+                "label": "63"
+              }
+            ],
+            "9": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 60,
+                "fact": 60,
+                "label": "60"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 70,
+                "fact": 70,
+                "label": "70"
+              }
+            ],
+            "10": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 81,
+                "fact": 81,
+                "label": "81"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 73,
+                "fact": 73,
+                "label": "73"
+              }
+            ],
+            "11": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 92,
+                "fact": 92,
+                "label": "92"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 86,
+                "fact": 86,
+                "label": "86"
+              }
+            ],
+            "12": [
+              {
+                "group": 1,
+                "responsible": "УВР",
+                "metric": 2,
+                "task": "2_УВР",
+                "plan": 100,
+                "fact": 100,
+                "label": "100"
+              },
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 2,
+                "task": "2_УДНГ",
+                "plan": 100,
+                "fact": 100,
+                "label": "100"
+              }
+            ]
+          },
+          "metric3": {
+            "0": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 1,
+                "fact": 1,
+                "label": "0"
+              }
+            ],
+            "1": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 10,
+                "fact": 10,
+                "label": "10"
+              }
+            ],
+            "2": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 14,
+                "fact": 14,
+                "label": "14"
+              }
+            ],
+            "3": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 15,
+                "fact": 15,
+                "label": "15"
+              }
+            ],
+            "4": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 20,
+                "fact": 19,
+                "label": "19"
+              }
+            ],
+            "5": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 70,
+                "fact": 68,
+                "label": "68"
+              }
+            ],
+            "6": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 70,
+                "fact": 68,
+                "label": "68"
+              }
+            ],
+            "7": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 70,
+                "fact": 70,
+                "label": "70"
+              }
+            ],
+            "8": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 75,
+                "fact": 73,
+                "label": "73"
+              }
+            ],
+            "9": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 85,
+                "fact": 84,
+                "label": "84"
+              }
+            ],
+            "10": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 95,
+                "fact": 91,
+                "label": "91"
+              }
+            ],
+            "11": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 95,
+                "fact": 95,
+                "label": "95"
+              }
+            ],
+            "12": [
+              {
+                "group": 2,
+                "responsible": "УДНГ",
+                "metric": 3,
+                "task": "3_УДНГ",
+                "plan": 100,
+                "fact": 100,
+                "label": "100"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
