@@ -25,6 +25,21 @@
         "option5"
       ],
       "id": 4
+    },
+    {
+      "title": "123",
+      "color": "голубой",
+      "id": 5
+    },
+    {
+      "title": "hello",
+      "color": "фиолетовый",
+      "id": 6
+    },
+    {
+      "title": "hello3",
+      "color": "голубой",
+      "id": 7
     }
   ],
   "choose_one": [
