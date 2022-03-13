@@ -3,8 +3,7 @@ import {
     useExpanded, 
     useSortBy, 
     useTable,
-    useFilters, 
-    useGlobalFilter
+    useFilters
 } from 'react-table'
 import { SelectColumnFilter, DefaultColumnFilter } from './Filters'
 

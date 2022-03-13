@@ -7,39 +7,6 @@
         "option6"
       ],
       "id": 2
-    },
-    {
-      "title": "hello",
-      "color": "голубой",
-      "options": [
-        "option5"
-      ],
-      "id": 3
-    },
-    {
-      "color": "синий",
-      "title": "max",
-      "options": [
-        "option6",
-        "option7",
-        "option5"
-      ],
-      "id": 4
-    },
-    {
-      "title": "123",
-      "color": "голубой",
-      "id": 5
-    },
-    {
-      "title": "hello",
-      "color": "фиолетовый",
-      "id": 6
-    },
-    {
-      "title": "hello3",
-      "color": "голубой",
-      "id": 7
     }
   ],
   "choose_one": [
@@ -408,202 +375,202 @@
       "chart1": {
         "project1": [
           {
-            "month": 1,
-            "earnings": 13000
+            "x": 1,
+            "y": 13000
           },
           {
-            "month": 2,
-            "earnings": 16000
+            "x": 2,
+            "y": 16000
           },
           {
-            "month": 3,
-            "earnings": 14000
+            "x": 3,
+            "y": 14000
           },
           {
-            "month": 4,
-            "earnings": 19000
+            "x": 4,
+            "y": 19000
           },
           {
-            "month": 5,
-            "earnings": 14000
+            "x": 5,
+            "y": 14000
           },
           {
-            "month": 6,
-            "earnings": 16000
+            "x": 6,
+            "y": 16000
           },
           {
-            "month": 7,
-            "earnings": 15000
+            "x": 7,
+            "y": 15000
           },
           {
-            "month": 8,
-            "earnings": 17000
+            "x": 8,
+            "y": 17000
           },
           {
-            "month": 9,
-            "earnings": 20000
+            "x": 9,
+            "y": 20000
           },
           {
-            "month": 10,
-            "earnings": 18000
+            "x": 10,
+            "y": 18000
           },
           {
-            "month": 11,
-            "earnings": 14000
+            "x": 11,
+            "y": 14000
           },
           {
-            "month": 12,
-            "earnings": 11000
+            "x": 12,
+            "y": 11000
           }
         ],
         "project2": [
           {
-            "month": 1,
-            "earnings": 18000
+            "x": 1,
+            "y": 18000
           },
           {
-            "month": 2,
-            "earnings": 15000
+            "x": 2,
+            "y": 15000
           },
           {
-            "month": 3,
-            "earnings": 14000
+            "x": 3,
+            "y": 14000
           },
           {
-            "month": 4,
-            "earnings": 13000
+            "x": 4,
+            "y": 13000
           },
           {
-            "month": 5,
-            "earnings": 12000
+            "x": 5,
+            "y": 12000
           },
           {
-            "month": 6,
-            "earnings": 16000
+            "x": 6,
+            "y": 16000
           },
           {
-            "month": 7,
-            "earnings": 12000
+            "x": 7,
+            "y": 12000
           },
           {
-            "month": 8,
-            "earnings": 17000
+            "x": 8,
+            "y": 17000
           },
           {
-            "month": 9,
-            "earnings": 19000
+            "x": 9,
+            "y": 19000
           },
           {
-            "month": 10,
-            "earnings": 16000
+            "x": 10,
+            "y": 16000
           },
           {
-            "month": 11,
-            "earnings": 13000
+            "x": 11,
+            "y": 13000
           },
           {
-            "month": 12,
-            "earnings": 12000
+            "x": 12,
+            "y": 12000
           }
         ],
         "project3": [
           {
-            "month": 1,
-            "earnings": 14000
+            "x": 1,
+            "y": 14000
           },
           {
-            "month": 2,
-            "earnings": 15000
+            "x": 2,
+            "y": 15000
           },
           {
-            "month": 3,
-            "earnings": 16000
+            "x": 3,
+            "y": 16000
           },
           {
-            "month": 4,
-            "earnings": 14000
+            "x": 4,
+            "y": 14000
           },
           {
-            "month": 5,
-            "earnings": 16000
+            "x": 5,
+            "y": 16000
           },
           {
-            "month": 6,
-            "earnings": 17000
+            "x": 6,
+            "y": 17000
           },
           {
-            "month": 7,
-            "earnings": 13000
+            "x": 7,
+            "y": 13000
           },
           {
-            "month": 8,
-            "earnings": 19000
+            "x": 8,
+            "y": 19000
           },
           {
-            "month": 9,
-            "earnings": 12000
+            "x": 9,
+            "y": 12000
           },
           {
-            "month": 10,
-            "earnings": 13000
+            "x": 10,
+            "y": 13000
           },
           {
-            "month": 11,
-            "earnings": 18000
+            "x": 11,
+            "y": 18000
           },
           {
-            "month": 12,
-            "earnings": 13000
+            "x": 12,
+            "y": 13000
           }
         ],
         "project4": [
           {
-            "month": 1,
-            "earnings": 19000
+            "x": 1,
+            "y": 19000
           },
           {
-            "month": 2,
-            "earnings": 13000
+            "x": 2,
+            "y": 13000
           },
           {
-            "month": 3,
-            "earnings": 12000
+            "x": 3,
+            "y": 12000
           },
           {
-            "month": 4,
-            "earnings": 9000
+            "x": 4,
+            "y": 9000
           },
           {
-            "month": 5,
-            "earnings": 14000
+            "x": 5,
+            "y": 14000
           },
           {
-            "month": 6,
-            "earnings": 13000
+            "x": 6,
+            "y": 13000
           },
           {
-            "month": 7,
-            "earnings": 18000
+            "x": 7,
+            "y": 18000
           },
           {
-            "month": 8,
-            "earnings": 15000
+            "x": 8,
+            "y": 15000
           },
           {
-            "month": 9,
-            "earnings": 17000
+            "x": 9,
+            "y": 17000
           },
           {
-            "month": 10,
-            "earnings": 14000
+            "x": 10,
+            "y": 14000
           },
           {
-            "month": 11,
-            "earnings": 15000
+            "x": 11,
+            "y": 15000
           },
           {
-            "month": 12,
-            "earnings": 12000
+            "x": 12,
+            "y": 12000
           }
         ]
       },

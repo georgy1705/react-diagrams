@@ -4,6 +4,8 @@ import restProvider from 'ra-data-simple-rest';
 import ColorsList from './components/Colors/ColorsList';
 import ColorsCreate from './components/Colors/ColorsCreate';
 import Table from './components/Table/Table';
+import Diagrams from './components/Diagrams/Diagrams';
+
 
 export const dataProvider = restProvider('http://localhost:3000')
 
@@ -13,8 +15,11 @@ const App = () => {
         <Resource name="colors" list={ColorsList} create={ColorsCreate} />
         <Resource name="choose_one" />
         <Resource name="choose_several" />
+
         <Resource name="table" list={Table} />
         <Resource name="task2" />
+
+        <Resource name="diagrams" list={Diagrams}/>
     </Admin>
   )
 }
