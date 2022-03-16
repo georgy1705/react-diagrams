@@ -1,0 +1,6 @@
+.table-footer {
+    padding: 0 5px;
+}
+.table-footer::before {
+    content: ' '
+}

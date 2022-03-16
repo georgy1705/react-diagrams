@@ -1,3 +1,4 @@
+import { makeStyles } from '@material-ui/core';
 import React, { useEffect } from 'react'
 import {
     List,
@@ -10,7 +11,19 @@ import {
 import { dataProvider } from '../../App';
 
 
+const useStyles = makeStyles({
+    row: {
+        backgroundColor: '#FFFAFA',
+    },
+    headerCell: {
+        backgroundColor: '#ADD8E6',
+        borderBottom: '1px solid #0000FF'
+    }
+});
+
+
 const ColorsList = (props) => {
+    const classes = useStyles(props);
 
     const getData = async () => {
         const { data } = await dataProvider.getList('colors', {
@@ -27,7 +40,7 @@ const ColorsList = (props) => {
 
     return (
         <List {...props}>
-            <Datagrid>
+            <Datagrid classes={classes}>
                 <TextField source="title" />
                 <TextField source="color" />
                 

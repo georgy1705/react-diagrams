@@ -107,7 +107,8 @@
         "header": [
           {
             "Header": "id",
-            "accessor": "id"
+            "accessor": "id",
+            "collapse": true
           },
           {
             "Header": "Наименование плана",
