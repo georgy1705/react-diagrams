@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Tab, TabbedShowLayout } from 'react-admin'
 import { dataProvider } from '../../App'
 import Chart1 from './Chart1'
 import Chart2 from './Chart2'
@@ -25,18 +26,20 @@ const Diagrams = () => {
     useEffect(() => {
         getData()
     }, [])
+
     
   return (
-      <>
-        <h2 className='chart-title'>Chart One</h2>
-        <Chart1 data={chart1}/>
-
-        <h2 className='chart-title'>Chart Two</h2>
-        <Chart2 data={chart2}/>
-
-        <h2 className='chart-title'>Chart Three</h2>
-        <Chart3 data={chart3}/>
-      </>
+      <TabbedShowLayout>
+          <Tab label="Chart №1">
+            <Chart1 data={chart1} className="chart1" />
+          </Tab>
+          <Tab label="Chart №2" path="chart2">
+            <Chart2 data={chart2}/>  
+          </Tab>
+          <Tab label="Chart №3" path="chart3">
+            <Chart3 data={chart3}/>  
+          </Tab>
+      </TabbedShowLayout>
   )
 }
 

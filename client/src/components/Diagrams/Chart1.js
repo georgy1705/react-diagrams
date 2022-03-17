@@ -3,17 +3,17 @@ import {
     VictoryBar, 
     VictoryChart, 
     VictoryAxis,
-    VictoryTheme,
     VictoryGroup,
     VictoryLegend
 } from 'victory';
+import DiagramTheme from './DiagramTheme';
 
 
 const Chart1 = ({data}) => {
     return (
         <VictoryChart 
-            theme={VictoryTheme.material}
-            height={200}
+            theme={DiagramTheme()}
+            height={250}
             width={500}
             domainPadding={20}
         >

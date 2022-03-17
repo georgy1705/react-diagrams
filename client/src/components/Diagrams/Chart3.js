@@ -1,10 +1,14 @@
 import React from 'react'
 import { VictoryAxis, VictoryBar, VictoryChart, VictoryStack } from 'victory'
+import DiagramTheme from './DiagramTheme'
 
 const Chart3 = ({data}) => {
   return (
     <VictoryChart
     domainPadding={1}
+    height={200}
+    width={500}
+    theme={DiagramTheme()}
     >
         <VictoryAxis/>
         <VictoryAxis
